@@ -11,10 +11,10 @@ Este proyecto implementa una solución DevOps en AWS para automatizar el desplie
 - GitHub
 
 ## 🏗️ Arquitectura
-(agregar diagrama después)
+
 
 ## 🔄 CI/CD
-(agregar después)
+
 
 ## 📊 Monitoreo
-(agregar después)
+
