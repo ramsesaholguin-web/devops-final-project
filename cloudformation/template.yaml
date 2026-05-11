@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Infraestructura básica DevOps
+
+Resources:
+
+  MiBucketS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: devops-final-bucket-12345
+
+  MiInstanciaEC2:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0c02fb55956c7d316
+      IamInstanceProfile: LabInstanceProfile
+      Tags:
+        - Key: Name
+          Value: DevOpsInstance
